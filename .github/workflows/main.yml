@@ -10,40 +10,40 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
-    - name: Set up Flutter
-      uses: subosito/flutter-action@v2
-      with:
-        flutter-version: '3.13.6'
-        channel: 'stable'
-        cache: true
-    - name: Install dependencies
-      run: flutter pub get
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.13.6"
+          channel: "stable"
+          cache: true
+      - name: Install dependencies
+        run: flutter pub get
 
-    - name: Build for Web
-      run: flutter build web
+      - name: Build for Web
+        run: flutter build web --base-href "/portfolio_brl_trainees/"
 
-    - name: Upload production-ready build files
-      uses: actions/upload-artifact@v2
-      with:
-        name: production-files
-        path: ./build/web
+      - name: Upload production-ready build files
+        uses: actions/upload-artifact@v2
+        with:
+          name: production-files
+          path: ./build/web
   deploy:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
 
     steps:
-    - name: Download artifact
-      uses: actions/download-artifact@v2
-      with:
-        name: production-files
-        path: ./build
+      - name: Download artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: production-files
+          path: ./build
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        publish_dir: ./build
-        github_token: ${{ secrets.GH_TOKEN }}
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./build
+          github_token: ${{ secrets.GH_TOKEN }}
