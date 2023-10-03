@@ -11,7 +11,7 @@ Welcome to our open source project! We're thrilled that you're interested in con
 2. Clone the forked repository to your local machine:
 
     ```markdown
-        git clone https://github.com/your-username/portfolio_brl_trainees.git
+        git clone https://github.com/xcrescent/portfolio_brl_trainees.git
     ```
 
 3. Create a new branch for your contribution:
@@ -43,9 +43,9 @@ Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) which outlines the be
 - Add any new files or make changes in the appropriate directories.
 - Do not create files or directories in the root directory unless absolutely necessary.
 
-### 3. External Collaborator List
+### 3. BRL Members List
 
-If you are an external collaborator, please add your information to the `externalColab` list in [`card.dart`](path/to/file). Include your name, member type, domain, GitHub link, LinkedIn link, and Instagram link.
+If you are a BRL Trainee, please add your information to the `trainees` list in [`card.dart`](path/to/file). Include your name, member type, domain, GitHub link, LinkedIn link, and Instagram link.
 
 Example:
 
@@ -53,8 +53,8 @@ Example:
 const BrlCard(
   img: 'https://example.com/your-image.png',
   name: 'Your Name',
-  memberType: 'External Collaborator',
-  domain: 'App Developer',
+  memberType: 'III Year Member',
+  domain: 'Your Domain',
   git: 'https://github.com/your-github-username',
   linked: 'https://www.linkedin.com/in/your-linkedin-profile',
   ig: 'https://www.instagram.com/your-instagram-profile',
@@ -72,22 +72,40 @@ const BrlCard(
   img: 'https://example.com/your-image.png',
   name: 'Your Name',
   memberType: 'BRL Trainee',
-  domain: 'App Developer',
+  domain: 'Your Domain',
   git: 'https://github.com/your-github-username',
   linked: 'https://www.linkedin.com/in/your-linkedin-profile',
   ig: 'https://www.instagram.com/your-instagram-profile',
 ),
 ```
 
-### 5. Testing
+### 5. External Collaborator List
+
+If you are an external collaborator, please add your information to the `externalColab` list in [`card.dart`](path/to/file). Include your name, member type, domain, GitHub link, LinkedIn link, and Instagram link.
+
+Example:
+
+```dart
+const BrlCard(
+  img: 'https://example.com/your-image.png',
+  name: 'Your Name',
+  memberType: 'External Collaborator',
+  domain: 'Your domain',
+  git: 'https://github.com/your-github-username',
+  linked: 'https://www.linkedin.com/in/your-linkedin-profile',
+  ig: 'https://www.instagram.com/your-instagram-profile',
+),
+```
+
+### 6. Testing
 
 Before submitting your PR, please ensure that your changes do not break existing functionality. Test your code thoroughly.
 
-### 6. Commit Messages
+### 7. Commit Messages
 
 Write clear and descriptive commit messages to summarize the changes you've made.
 
-### 7. Review Process
+### 8. Review Process
 
 All PRs will be reviewed by maintainers. Please be patient during this process.
 
