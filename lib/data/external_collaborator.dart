@@ -4,7 +4,7 @@ import 'package:portfolio_brl_trainees/widgets/card.dart';
 List<BrlCard> externalColab = [
   const BrlCard(
     img:
-        'https://raw.githubusercontent.com/beingadish/BRL-Members-Assets/main/BRL_APP/.jpg',
+        'https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/usererror.png',
     name: 'NAME',
     memberType: 'External Collaborator',
     domain: 'App Developer',
