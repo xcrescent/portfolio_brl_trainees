@@ -20785,11 +20785,9 @@ s.Ba()},
 D8:function D8(a){this.a=a},
 Xa:function Xa(){},
 og:function og(a){this.a=a},
-im:function im(a,b,c,d){var _=this
-_.d=a
-_.e=b
-_.w=c
-_.a=d},
+im:function im(a,b,c){this.e=a
+this.w=b
+this.a=c},
 Pw:function Pw(a){this.a=a},
 Px:function Px(){},
 Py:function Py(){},
@@ -64960,12 +64958,11 @@ S(a){var s=null,r=A.a([B.jb,B.jh,B.i,B.i],t.t_),q=A.a([new A.vm(new A.iY(B.jD,A.
 p=p?B.vE:s
 return new A.uR(A.qZ(s,A.aqS(new A.AG(q,B.c_,!1,s,s,p,s,!1,s,0,s,s,B.aA,B.FX,s,B.aL,s),!0),B.u,s,s,new A.fw(s,s,s,s,s,new A.nX(B.vD,B.hW,B.cY,r,B.Be,s),B.bt),s,s,s,s,s,s,s),s)}}
 A.im.prototype={
-S(a){var s,r,q,p=this,o=null,n=t.w,m=A.cr(a,o,n).w
-n=A.cr(a,o,n).w
+S(a){var s,r,q=this,p=null,o="https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/usererror.png",n=t.w,m=A.cr(a,p,n).w
+n=A.cr(a,p,n).w
 s=A.aac(15)
-r=p.d
-q=t.af
-return new A.oV(new A.aq(1,0,t.Y),new A.Pw(m.a.a),A.qZ(o,new A.An(B.c_,B.p1,B.fL,B.jo,o,B.hy,o,A.a([new A.zX(new A.Ac(new A.qL(new A.jS(o,r,o,o,o,100,100,B.zT),r,new A.Px(),new A.Py(),100,100,B.w1,100,100,o),o),B.a4,34,o),B.H7,A.aaK(A.Gh("NAME",B.Jw,B.bS),B.d6),B.Ha,A.aaK(A.Gh(p.e,A.je(o,o,B.aY,o,o,o,o,o,"sans",o,o,11.7,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),B.bS),B.d6),B.H9,A.aaK(A.Gh("App Developer",A.je(o,o,B.aY,o,o,o,o,o,"sans",o,o,11.7,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),B.bS),B.d6),B.H8,A.ag4(A.a([A.BQ(o,B.zL,B.aA,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.Pz(p),o,o,o),B.uX,A.BQ(o,$.alB(),B.aA,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.PA(p),o,o,o),B.uX,A.BQ(o,B.zK,B.aA,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.PB(p),o,o,o)],q),B.p1,B.fL)],q),o),B.u,o,o,new A.fw(B.i,o,o,s,B.Bb,o,B.bt),o,n.a.b*0.38,o,B.zc,o,o,o),B.A1,B.za,o,o,t.HN)}}
+r=t.af
+return new A.oV(new A.aq(1,0,t.Y),new A.Pw(m.a.a),A.qZ(p,new A.An(B.c_,B.p1,B.fL,B.jo,p,B.hy,p,A.a([new A.zX(new A.Ac(new A.qL(new A.jS(p,o,p,p,p,100,100,B.zT),o,new A.Px(),new A.Py(),100,100,B.w1,100,100,p),p),B.a4,34,p),B.H7,A.aaK(A.Gh("NAME",B.Jw,B.bS),B.d6),B.Ha,A.aaK(A.Gh(q.e,A.je(p,p,B.aY,p,p,p,p,p,"sans",p,p,11.7,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),B.bS),B.d6),B.H9,A.aaK(A.Gh("App Developer",A.je(p,p,B.aY,p,p,p,p,p,"sans",p,p,11.7,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),B.bS),B.d6),B.H8,A.ag4(A.a([A.BQ(p,B.zL,B.aA,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.Pz(q),p,p,p),B.uX,A.BQ(p,$.alB(),B.aA,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.PA(q),p,p,p),B.uX,A.BQ(p,B.zK,B.aA,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.PB(q),p,p,p)],r),B.p1,B.fL)],r),p),B.u,p,p,new A.fw(B.i,p,p,s,B.Bb,p,B.bt),p,n.a.b*0.38,p,B.zc,p,p,p),B.A1,B.za,p,p,t.HN)}}
 A.Pw.prototype={
 $3(a,b,c){return A.abM(null,c,A.o3(0,b*this.a,0),!0)},
 $S:402}
@@ -67720,8 +67717,8 @@ B.w3=new A.zI(1,"circle")
 B.d7=new A.Pu(0,"tight")
 B.a9=new A.zJ(0,"dark")
 B.T=new A.zJ(1,"light")
-B.w4=new A.im("/portfolio_brl_trainees/assets/assets/images/usererror.png","BRL Trainee","https://www.linkedin.com/in/utkarsh-singh-jadon/",null)
-B.w5=new A.im("https://raw.githubusercontent.com/beingadish/BRL-Members-Assets/main/BRL_APP/.jpg","External Collaborator","https://www.linkedin.com/in/utkarsh-singh-jadon",null)
+B.w4=new A.im("External Collaborator","https://www.linkedin.com/in/utkarsh-singh-jadon",null)
+B.w5=new A.im("BRL Trainee","https://www.linkedin.com/in/utkarsh-singh-jadon/",null)
 B.aJ=new A.qJ(0,"blink")
 B.D=new A.qJ(1,"webkit")
 B.az=new A.qJ(2,"firefox")
@@ -70324,8 +70321,8 @@ $.aoO=A.a([0.015176349177441876,0.045529047532325624,0.07588174588720938,0.10623
 $.an6=function(){var s=t.n
 return A.a([A.a([0.41233895,0.35762064,0.18051042],s),A.a([0.2126,0.7152,0.0722],s),A.a([0.01932141,0.11916382,0.95034478],s)],t.zg)}()
 $.QJ=A.a([95.047,100,108.883],t.n)
-$.avF=A.a([B.w5],A.a8("w<im>"))
-$.awX=A.a([B.w4],A.a8("w<im>"))
+$.avF=A.a([B.w4],A.a8("w<im>"))
+$.awX=A.a([B.w5],A.a8("w<im>"))
 $.apd=A.y(t.S,A.a8("axX"))
 $.afg=null
 $.afe=null
