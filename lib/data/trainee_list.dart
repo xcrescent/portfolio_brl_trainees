@@ -5,7 +5,7 @@ import 'package:portfolio_brl_trainees/widgets/card.dart';
 List<BrlCard> trainees = [
   const BrlCard(
     img:
-        '/assets/assets/images/usererror.png',
+        '/portfolio_brl_trainees/assets/assets/images/usererror.png',
     name: 'NAME',
     memberType: 'BRL Trainee',
     domain: 'App Developer',
