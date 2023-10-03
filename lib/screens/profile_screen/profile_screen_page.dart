@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio_brl_trainees/data/brl_members.dart';
 import 'package:portfolio_brl_trainees/data/external_collaborator.dart';
 import 'package:portfolio_brl_trainees/data/trainee_list.dart';
 import 'package:portfolio_brl_trainees/widgets/member_grid.dart';
@@ -26,6 +27,24 @@ class ProfileScreenPage extends StatelessWidget {
         child: SafeArea(
           child: CustomScrollView(
             slivers: [
+              /*----------------------------------------------------BRL Members CARDS----------------------------------------------------------------------*/
+              SliverToBoxAdapter(
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 16.0),
+                  child: Center(
+                    child: Text(
+                      "BRL Members",
+                      style: TextStyle(
+                        fontSize: 25,
+                        fontFamily: 'mont',
+                        fontWeight: FontWeight.bold,
+                        color: Colors.deepPurple.shade400,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              MemberGrid(list: brlMembers),
               /*----------------------------------------------------Trainee CARDS----------------------------------------------------------------------*/
               SliverToBoxAdapter(
                 child: Padding(
