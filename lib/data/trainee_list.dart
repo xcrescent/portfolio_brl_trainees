@@ -13,4 +13,5 @@ List<BrlCard> trainees = [
     linked: 'https://www.linkedin.com/in/utkarsh-singh-jadon/',
     ig: 'https://www.instagram.com/fkjrodnd/',
   ),
+  // Add your own card here
 ];
