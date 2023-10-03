@@ -64967,7 +64967,7 @@ n=A.cr(a,o,n).w
 s=A.aac(15)
 r=p.d
 q=t.af
-return new A.oX(new A.aq(1,0,t.Y),new A.Pw(m.a.a),A.r1(o,new A.Ao(B.c_,B.p1,B.fM,B.jp,o,B.hz,o,A.a([new A.zY(new A.Ad(new A.qN(new A.jS(o,r,o,o,o,100,100,B.zU),r,new A.Px(),new A.Py(),100,100,B.w1,100,100,o),o),B.a4,34,o),B.H8,A.aaK(A.vD(p.c,B.Jx,B.bS),B.d6),B.Hb,A.aaK(A.vD(p.e,A.hZ(o,o,B.aY,o,o,o,o,o,"sans",o,o,11.7,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),B.bS),B.d6),B.Ha,A.aaK(A.vD("App Developer",A.hZ(o,o,B.aY,o,o,o,o,o,"sans",o,o,11.7,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),B.bS),B.d6),B.H9,A.ag4(A.a([A.BR(o,B.zM,B.aA,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.Pz(p),o,o,o),B.uX,A.BR(o,$.alB(),B.aA,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.PA(p),o,o,o),B.uX,A.BR(o,B.zL,B.aA,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.PB(p),o,o,o)],q),B.p1,B.fM)],q),o),B.u,o,o,new A.fw(B.i,o,o,s,B.Bc,o,B.bt),o,n.a.b*0.38,o,B.zd,o,o,o),B.A2,B.zb,o,o,t.HN)}}
+return new A.oX(new A.aq(1,0,t.Y),new A.Pw(m.a.a),A.r1(o,new A.Ao(B.c_,B.p1,B.fM,B.jp,o,B.hz,o,A.a([new A.zY(new A.Ad(new A.qN(new A.jS(o,r,o,o,o,200,200,B.zU),r,new A.Px(),new A.Py(),200,200,B.w1,200,200,o),o),B.a4,34,o),B.H8,A.aaK(A.vD(p.c,B.Jx,B.bS),B.d6),B.Hb,A.aaK(A.vD(p.e,A.hZ(o,o,B.aY,o,o,o,o,o,"sans",o,o,11.7,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),B.bS),B.d6),B.Ha,A.aaK(A.vD("App Developer",A.hZ(o,o,B.aY,o,o,o,o,o,"sans",o,o,11.7,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),B.bS),B.d6),B.H9,A.ag4(A.a([A.BR(o,B.zM,B.aA,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.Pz(p),o,o,o),B.uX,A.BR(o,$.alB(),B.aA,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.PA(p),o,o,o),B.uX,A.BR(o,B.zL,B.aA,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.PB(p),o,o,o)],q),B.p1,B.fM)],q),o),B.u,o,o,new A.fw(B.i,o,o,s,B.Bc,o,B.bt),o,n.a.b*0.38,o,B.zd,o,o,o),B.A2,B.zb,o,o,t.HN)}}
 A.Pw.prototype={
 $3(a,b,c){return A.abM(null,c,A.o3(0,b*this.a,0),!0)},
 $S:402}
