@@ -81,12 +81,12 @@ class BrlCard extends StatelessWidget {
                   progressIndicatorBuilder: (context, url, downloadProgress) =>
                       CircularProgressIndicator(
                           value: downloadProgress.progress),
-                  width: 100,
-                  height: 100,
-                  memCacheHeight: 100,
-                  memCacheWidth: 100,
-                  maxHeightDiskCache: 100,
-                  maxWidthDiskCache: 100,
+                  width: 200,
+                  height: 200,
+                  memCacheHeight: 200,
+                  memCacheWidth: 200,
+                  maxHeightDiskCache: 200,
+                  maxWidthDiskCache: 200,
                   fit: BoxFit.cover,
                   imageUrl: img,
                   errorWidget: (context, url, error) =>
