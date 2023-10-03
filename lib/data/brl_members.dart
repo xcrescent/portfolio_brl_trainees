@@ -8,7 +8,7 @@ List<BrlCard> brlMembers = [
     name: 'Utkarsh Singh',
     memberType: 'III Year Coordinator',
     domain: 'App Developer',
-    git: 'https://github.com/xcrescent',
+    git: 'https://github.com/xcrescent/',
     linked: 'https://www.linkedin.com/in/utkarsh-singh-jadon',
     ig: 'https://www.instagram.com/fkjrodnd/',
   ),
