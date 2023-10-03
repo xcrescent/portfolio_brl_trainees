@@ -1,22 +1,22 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher_string.dart';
-import 'package:flutter_icons_null_safety/flutter_icons_null_safety.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 Icon instagramicon = const Icon(
-  AntDesign.instagram,
+  FontAwesomeIcons.instagram,
   size: 20,
   color: Colors.pink,
 );
 
 Icon linkedIn = const Icon(
-  AntDesign.linkedin_square,
+  FontAwesomeIcons.linkedin,
   size: 20,
   color: Colors.blue,
 );
 
 Icon github = Icon(
-  AntDesign.github,
+  FontAwesomeIcons.github,
   size: 20,
   color: Colors.grey[800],
 );
