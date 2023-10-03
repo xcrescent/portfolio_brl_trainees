@@ -20785,12 +20785,13 @@ s.Ba()},
 D9:function D9(a){this.a=a},
 Xa:function Xa(){},
 oh:function oh(a){this.a=a},
-fx:function fx(a,b,c,d,e){var _=this
+fx:function fx(a,b,c,d,e,f){var _=this
 _.c=a
 _.d=b
 _.e=c
-_.w=d
-_.a=e},
+_.r=d
+_.w=e
+_.a=f},
 Pw:function Pw(a){this.a=a},
 Px:function Px(){},
 Py:function Py(){},
@@ -64995,17 +64996,18 @@ case 3:return A.N(null,r)}})
 return A.O($async$$0,r)},
 $S:13}
 A.PA.prototype={
-$0(){var s=0,r=A.P(t.H)
+$0(){var s=0,r=A.P(t.H),q=this,p
 var $async$$0=A.K(function(a,b){if(a===1)return A.M(b,r)
-while(true)switch(s){case 0:s=5
-return A.H(A.Oh("https://github.com/xcrescent"),$async$$0)
+while(true)switch(s){case 0:p=q.a.r
+s=5
+return A.H(A.Oh(p),$async$$0)
 case 5:s=b?2:4
 break
 case 2:s=6
-return A.H(A.Op("https://github.com/xcrescent",B.fc),$async$$0)
+return A.H(A.Op(p,B.fc),$async$$0)
 case 6:s=3
 break
-case 4:throw A.c("Could not launch https://github.com/xcrescent")
+case 4:throw A.c("Could not launch "+p)
 case 3:return A.N(null,r)}})
 return A.O($async$$0,r)},
 $S:13}
@@ -67721,9 +67723,9 @@ B.w3=new A.zK(1,"circle")
 B.d7=new A.Pu(0,"tight")
 B.a9=new A.zL(0,"dark")
 B.T=new A.zL(1,"light")
-B.w4=new A.fx("NAME",u.r,"External Collaborator",u.L,null)
-B.w6=new A.fx("Utkarsh Singh","assets/assets/images/utkarsh_singh.png","III Year Coordinator",u.L,null)
-B.w5=new A.fx("NAME",u.r,"BRL Trainee","https://www.linkedin.com/in/utkarsh-singh-jadon/",null)
+B.w4=new A.fx("NAME",u.r,"External Collaborator","https://github.com/xcrescent",u.L,null)
+B.w5=new A.fx("NAME",u.r,"BRL Trainee","https://github.com/xcrescent","https://www.linkedin.com/in/utkarsh-singh-jadon/",null)
+B.w6=new A.fx("Utkarsh Singh","assets/assets/images/utkarsh_singh.png","III Year Coordinator","https://github.com/xcrescent/",u.L,null)
 B.aK=new A.qL(0,"blink")
 B.D=new A.qL(1,"webkit")
 B.az=new A.qL(2,"firefox")
