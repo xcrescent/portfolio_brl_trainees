@@ -45,7 +45,7 @@ Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) which outlines the be
 
 ### 3. BRL Members List
 
-If you are a BRL Trainee, please add your information to the `trainees` list in [`card.dart`](path/to/file). Include your name, member type, domain, GitHub link, LinkedIn link, and Instagram link.
+If you are a BRL Member, please add your information to the `brlMembers` list in [`brl_members.dart`](lib/data/brl_members.dart). Include your name, member type, domain, GitHub link, LinkedIn link, and Instagram link.
 
 Example:
 
@@ -63,7 +63,7 @@ const BrlCard(
 
 ### 4. Trainee List
 
-If you are a BRL Trainee, please add your information to the `trainees` list in [`card.dart`](path/to/file). Include your name, member type, domain, GitHub link, LinkedIn link, and Instagram link.
+If you are a BRL Trainee, please add your information to the `trainees` list in [`trainee_list.dart`](lib/data/trainee_list.dart). Include your name, member type, domain, GitHub link, LinkedIn link, and Instagram link.
 
 Example:
 
@@ -81,7 +81,7 @@ const BrlCard(
 
 ### 5. External Collaborator List
 
-If you are an external collaborator, please add your information to the `externalColab` list in [`card.dart`](path/to/file). Include your name, member type, domain, GitHub link, LinkedIn link, and Instagram link.
+If you are an external collaborator, please add your information to the `externalColab` list in [`external_collaborator.dart`](lib/data/external_collaborator.dart). Include your name, member type, domain, GitHub link, LinkedIn link, and Instagram link.
 
 Example:
 
