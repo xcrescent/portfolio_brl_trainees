@@ -40,6 +40,11 @@ dependencies:
   url_launcher: ^6.1.14
   cached_network_image: ^3.3.0
   font_awesome_flutter: ^10.5.0
+  flutter_riverpod: ^2.4.2
+  hive_flutter: ^1.1.0
+  platform_info: ^4.0.2
+  talker_flutter: ^3.3.1
+  flutter_displaymode: ^0.6.0
 
 dev_dependencies:
   flutter_test:
