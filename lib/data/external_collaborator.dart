@@ -21,5 +21,14 @@ List<BrlCard> externalColab = [
     linked: 'https://www.linkedin.com/in/aman-kumar-986448238',
     ig: 'https://www.instagram.com/aman_singh.9223',
   ),
+  const BrlCard(
+    img: 'https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/Aman.png',
+    name: 'Aman Singh',
+    memberType: 'External Collaborator',
+    domain: 'Web Developer',
+    git: 'https://github.com/aman1205',
+    linked: 'https://www.linkedin.com/in/aman-kumar-986448238',
+    ig: 'https://www.instagram.com/aman_singh.9223',
+  ),
   // Add your own card here
 ];
