@@ -30,5 +30,14 @@ List<BrlCard> externalColab = [
     linked: 'https://www.linkedin.com/in/aman-kumar-986448238',
     ig: 'https://www.instagram.com/aman_singh.9223',
   ),
+  const BrlCard(
+    img: 'https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/yaswanth_mitta.png',
+    name: 'Yaswanth Mitta',
+    memberType: 'External Collaborator',
+    domain: 'Flutter Developer',
+    git: 'https://github.com/Yaswanth-Mitta',
+    linked: 'https://www.linkedin.com/in/yaswanth-mitta',
+    ig: 'https://www.instagram.com/ninnu._kori/?hl=en',
+  ),
   // Add your own card here
 ];
