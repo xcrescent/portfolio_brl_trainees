@@ -3,8 +3,7 @@ import 'package:portfolio_brl_trainees/widgets/card.dart';
 // ****************************************************** External Collaborator List ***************************************************************** //
 List<BrlCard> externalColab = [
   const BrlCard(
-    img:
-        'https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/usererror.png',
+    img: 'https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/usererror.png',
     name: 'NAME',
     memberType: 'External Collaborator',
     domain: 'App Developer',
@@ -38,6 +37,15 @@ List<BrlCard> externalColab = [
     git: 'https://github.com/Yaswanth-Mitta',
     linked: 'https://www.linkedin.com/in/yaswanth-mitta',
     ig: 'https://www.instagram.com/ninnu._kori/?hl=en',
+  ),
+  const BrlCard(
+    img: 'https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/suresh_sharma.jpeg',
+    name: 'Suresh Sharma',
+    memberType: 'External Collaborator',
+    domain: 'Flutter Developer',
+    git: 'https://github.com/iamsureshsharma',
+    linked: 'https://in.linkedin.com/in/iamsureshsharma',
+    ig: 'https://www.instagram.com/i_am_suresh_sharma/',
   ),
   // Add your own card here
 ];
