@@ -34,15 +34,5 @@ List<BrlCard> trainees = [
     linked: 'https://www.linkedin.com/in/maansi-garg-b93683249/',
     ig: 'https://www.instagram.com/maansigarg06/',
   ),
-  const BrlCard(
-    img:
-        'https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/justin_roy.png',
-    name: 'Justin Roy',
-    memberType: 'BRL Trainee',
-    domain: 'App Developer',
-    git: 'https://github.com/Justin-roy',
-    linked: 'https://www.linkedin.com/in/justin-roy-4817551ba/',
-    ig: 'https://www.instagram.com/justin._.roy/',
-  ),
   // Add your own card here
 ];

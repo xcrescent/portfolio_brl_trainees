@@ -3,7 +3,8 @@ import 'package:portfolio_brl_trainees/widgets/card.dart';
 // ****************************************************** External Collaborator List ***************************************************************** //
 List<BrlCard> externalColab = [
   const BrlCard(
-    img: 'https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/usererror.png',
+    img:
+        'https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/usererror.png',
     name: 'NAME',
     memberType: 'External Collaborator',
     domain: 'App Developer',
@@ -21,7 +22,8 @@ List<BrlCard> externalColab = [
     ig: 'https://www.instagram.com/aman_singh.9223',
   ),
   const BrlCard(
-    img: 'https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/Aman.png',
+    img:
+        'https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/Aman.png',
     name: 'Aman Singh',
     memberType: 'External Collaborator',
     domain: 'Web Developer',
@@ -30,7 +32,8 @@ List<BrlCard> externalColab = [
     ig: 'https://www.instagram.com/aman_singh.9223',
   ),
   const BrlCard(
-    img: 'https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/yaswanth_mitta.png',
+    img:
+        'https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/yaswanth_mitta.png',
     name: 'Yaswanth Mitta',
     memberType: 'External Collaborator',
     domain: 'Flutter Developer',
@@ -39,13 +42,24 @@ List<BrlCard> externalColab = [
     ig: 'https://www.instagram.com/ninnu._kori/?hl=en',
   ),
   const BrlCard(
-    img: 'https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/suresh_sharma.jpeg',
+    img:
+        'https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/suresh_sharma.jpeg',
     name: 'Suresh Sharma',
     memberType: 'External Collaborator',
     domain: 'Flutter Developer',
     git: 'https://github.com/iamsureshsharma',
     linked: 'https://in.linkedin.com/in/iamsureshsharma',
     ig: 'https://www.instagram.com/i_am_suresh_sharma/',
+  ),
+  const BrlCard(
+    img:
+        'https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/justin_roy.png',
+    name: 'Justin Roy',
+    memberType: 'External Collaborator',
+    domain: 'Flutter Developer',
+    git: 'https://github.com/Justin-roy',
+    linked: 'https://www.linkedin.com/in/justin-roy-4817551ba/',
+    ig: 'https://www.instagram.com/justin._.roy/',
   ),
   // Add your own card here
 ];
