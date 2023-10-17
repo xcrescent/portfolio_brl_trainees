@@ -3,8 +3,8 @@ import 'package:portfolio_brl_trainees/widgets/card.dart';
 // ****************************************************** Trainee List ***************************************************************** //
 
 List<BrlCard> trainees = [
- const BrlCard(
-   img:
+  const BrlCard(
+    img:
         'https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/gaurav_singh.png',
     name: 'Gaurav Singh',
     memberType: 'BRL Trainee',
@@ -13,24 +13,36 @@ List<BrlCard> trainees = [
     linked: 'https://www.linkedin.com/in/gaurav-singh-🚀-637686213/',
     ig: 'https://www.instagram.com/euclid.stellar/',
   ),
-   const BrlCard(
+  const BrlCard(
     img:
         'https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/usererror.png',
     name: 'Gaurav ',
     memberType: 'BRL Trainee',
     domain: 'App Developer',
     git: 'https://github.com/gauravydv007',
-    linked: 'https://www.linkedin.com/in/gaurav-singh-b710a1291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    linked:
+        'https://www.linkedin.com/in/gaurav-singh-b710a1291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     ig: 'https://www.instagram.com/gauravsingh_yaduvanshi',
-     ),
+  ),
   const BrlCard(
-   img: 'https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/maansi.png',
-   name: 'Maansi Garg',
-   memberType: 'BRL Trainee',
-   domain: 'App Developer',
-   git: 'https://github.com/Maansi06Garg',
-   linked: 'https://www.linkedin.com/in/maansi-garg-b93683249/',
-   ig: 'https://www.instagram.com/maansigarg06/',
+    img:
+        'https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/maansi.png',
+    name: 'Maansi Garg',
+    memberType: 'BRL Trainee',
+    domain: 'App Developer',
+    git: 'https://github.com/Maansi06Garg',
+    linked: 'https://www.linkedin.com/in/maansi-garg-b93683249/',
+    ig: 'https://www.instagram.com/maansigarg06/',
+  ),
+  const BrlCard(
+    img:
+        'https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/justin_roy.png',
+    name: 'Justin Roy',
+    memberType: 'BRL Trainee',
+    domain: 'App Developer',
+    git: 'https://github.com/Justin-roy',
+    linked: 'https://www.linkedin.com/in/justin-roy-4817551ba/',
+    ig: 'https://www.instagram.com/justin._.roy/',
   ),
   // Add your own card here
 ];
