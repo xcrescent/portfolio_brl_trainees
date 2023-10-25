@@ -61,5 +61,14 @@ List<BrlCard> externalColab = [
     linked: 'https://www.linkedin.com/in/justin-roy-4817551ba/',
     ig: 'https://www.instagram.com/justin._.roy/',
   ),
+  const BrlCard(
+    img: 'https://avatars.githubusercontent.com/u/75848598?v=4',
+    name: 'Ishita Pathak',
+    memberType: 'External Collaborator',
+    domain: 'Flutter Developer',
+    git: 'https://github.com/IshitaPathak',
+    linked: 'https://www.linkedin.com/in/ishita-pathak-119437201/',
+    ig: 'https://twitter.com/IshitaPathak_',
+  ),
   // Add your own card here
 ];
