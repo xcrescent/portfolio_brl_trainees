@@ -61,6 +61,7 @@ List<BrlCard> externalColab = [
     linked: 'https://www.linkedin.com/in/justin-roy-4817551ba/',
     ig: 'https://www.instagram.com/justin._.roy/',
   ),
+
   const BrlCard(
     img: 'https://avatars.githubusercontent.com/u/75848598?v=4',
     name: 'Ishita Pathak',
@@ -69,6 +70,17 @@ List<BrlCard> externalColab = [
     git: 'https://github.com/IshitaPathak',
     linked: 'https://www.linkedin.com/in/ishita-pathak-119437201/',
     ig: 'https://twitter.com/IshitaPathak_',
+),
+  const BrlCard(
+    img:
+        'https://xcrescent.github.io/portfolio_brl_trainees/assets/assets/images/roop.jpeg',
+    name: 'Roopam Barman',
+    memberType: 'External Collaborator',
+    domain: 'Flutter Developer',
+    git: 'https://github.com/Redvey',
+    linked: 'https://www.linkedin.com/in/roopam10',
+    ig: 'https://www.instagram.com/roo._.pam/',
+
   ),
   // Add your own card here
 ];
