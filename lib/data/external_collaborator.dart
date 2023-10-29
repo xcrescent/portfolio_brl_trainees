@@ -82,5 +82,14 @@ List<BrlCard> externalColab = [
     ig: 'https://www.instagram.com/roo._.pam/',
 
   ),
+  const BrlCard(
+  img: 'https://google.com/image.png',
+  name: 'Arin Kulkarni',
+  memberType: 'External Collaborator',
+  domain: 'Develop',
+  git: 'https://github.com/akoolarni',
+  linked: 'https://www.linkedin.com/in/Arin_Kulkarni',
+  ig: 'https://www.instagram.com/arinnn_progeek',
+),
   // Add your own card here
 ];
