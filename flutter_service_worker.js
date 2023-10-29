@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"main.dart.js": "92a809a5e5164d49a8cff0ac4e924b1c",
+const RESOURCES = {"main.dart.js": "0dc2c4c794b64dbcb77892efd964e210",
 "assets/AssetManifest.json": "beb6b37ffe1470fed9ea6691cf9a1dd6",
 "assets/assets/fonts/Montserrat-Regular.ttf": "f7213526ec9296ff43426bfe3eae8926",
 "assets/assets/images/justin_roy.png": "1ad26e2f4c2f9b248991e05f18673848",
@@ -25,8 +25,8 @@ const RESOURCES = {"main.dart.js": "92a809a5e5164d49a8cff0ac4e924b1c",
 "assets/NOTICES": "eaae73c7d0c5ceb5a3580512afaa5ee1",
 "assets/shaders/ink_sparkle.frag": "f8b80e740d33eb157090be4e995febdf",
 "manifest.json": "987fa6283b96c91bc990da9e843a7c73",
-"index.html": "a6bcb9114e91d55f94ea4f8800ff266a",
-"/": "a6bcb9114e91d55f94ea4f8800ff266a",
+"index.html": "24616d3a0b578b4cb04a6eb4d8f28cdc",
+"/": "24616d3a0b578b4cb04a6eb4d8f28cdc",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
